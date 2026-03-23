@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Federal Proposal Consultant | GovCon Proposal Management | DGS Strategy</title>
+<meta name="description" content="Senior-level federal proposal consultant supporting GSA MAS, OASIS+, and DoD bids. Proposal management, pricing, and contract support for GovCon firms.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Instrument+Serif:ital@0;1&family=Lora:ital@1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d1f14;--pine:#1e3d28;--fern:#5a8f68;--mist:#a8c9b0;--cream:#f2ede4;--white:#faf9f6;--lime:#c8e86c;--rule:rgba(168,201,176,0.15);--hi:rgba(200,232,108,0.25)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*{overflow:visible}
+html{scroll-behavior:smooth;font-size:17px}
+body{background:var(--ink);color:var(--cream);font-family:'Syne',Arial,sans-serif;font-weight:400;max-width:100vw}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 3rem;background:rgba(13,31,20,0.97);border-bottom:1px solid var(--rule)}
+.logo{display:inline-flex;align-items:baseline;text-decoration:none;gap:2px}
+.logo-dgs{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400;font-size:1.6rem;color:var(--lime);letter-spacing:-0.02em;line-height:1}
+.logo-strategy{font-family:'Syne',Arial,sans-serif;font-weight:800;font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white);margin-left:5px;padding-bottom:1px}
+.nav-links{display:flex;gap:2.5rem;list-style:none;align-items:center}
+.nav-links a{font-family:'DM Mono','Courier New',monospace;font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--mist);text-decoration:none;transition:color 0.2s}
+.nav-links a:hover{color:var(--white)}
+.nav-btn{font-family:'DM Mono','Courier New',monospace;font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--ink);background:var(--lime);padding:0.6rem 1.4rem;border-radius:2px;font-weight:500;text-decoration:none;transition:background 0.2s}
+.nav-btn:hover{background:var(--cream)}
+.hero{min-height:100vh;padding:0 3rem;display:flex;flex-direction:column;justify-content:flex-end}
+.hero-inner{padding-top:12rem;max-width:900px}
+.eyebrow{font-family:'DM Mono','Courier New',monospace;font-size:0.65rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--lime);margin-bottom:2.2rem;display:flex;align-items:center;gap:0.75rem}
+.eyebrow::before{content:'';width:20px;height:1px;background:var(--lime);flex-shrink:0}
+h1{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(3.5rem,9vw,10rem);line-height:1.15;font-weight:400;color:var(--white);letter-spacing:-0.02em;padding-bottom:0.1em}
+h1 em{font-style:italic;color:var(--lime)}
+h1 .ghost{display:block;-webkit-text-stroke:1px rgba(242,237,228,0.2);color:transparent}
+.hero-cred{font-family:'DM Mono','Courier New',monospace;font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--mist);margin-top:2.2rem;border-left:1.5px solid var(--lime);padding-left:1rem}
+.hero-action{margin-top:2.8rem}
+.btn{font-family:'DM Mono','Courier New',monospace;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--ink);background:var(--lime);padding:0.95rem 2.2rem;border-radius:2px;font-weight:500;display:inline-block;text-decoration:none;transition:background 0.2s,transform 0.15s;border:none;cursor:pointer}
+.btn:hover{background:var(--cream);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--mist);border:1px solid var(--rule);margin-left:0.75rem}
+.btn-outline:hover{color:var(--white);border-color:rgba(168,201,176,0.35);background:transparent}
+.hero-foot{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--rule);margin-top:3rem}
+.hf{padding:2rem 0;border-right:1px solid var(--rule);font-size:0.95rem;line-height:1.75;color:var(--mist)}
+.hf:last-child{border-right:none;padding-left:2.5rem}
+.hf:first-child{padding-right:2.5rem}
+.hf strong{color:var(--cream);font-weight:600}
+.mono-label{font-family:'DM Mono','Courier New',monospace;font-size:0.6rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--lime);display:block;margin-bottom:0.8rem}
+.section-rule{height:1px;background:var(--rule)}
+.services{padding:8rem 3rem;display:grid;grid-template-columns:260px 1fr;gap:6rem;align-items:start}
+.svc-header{position:relative}
+.svc-header h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.2rem,3.5vw,3.5rem);font-weight:400;line-height:1.4;color:var(--white);padding-bottom:0.3em}
+.svc-header h2 em{font-style:italic;color:var(--lime);display:block;line-height:1.5;padding-bottom:0.2em}
+.svc-get{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.2rem,3.5vw,3.5rem);font-weight:400;line-height:1.6;color:var(--white);margin-top:0;margin-bottom:0.6em;display:block;padding-top:0.1em}
+.svc-get em{font-style:italic;color:var(--lime);font-family:'Lora',Georgia,serif}
+.svc-header p{font-size:0.95rem;line-height:1.8;color:var(--mist);margin-top:1.2rem}
+.svc-list{display:flex;flex-direction:column}
+.svc{padding:2.5rem 0;border-bottom:1px solid var(--rule)}
+.svc:first-child{border-top:1px solid var(--rule)}
+.svc-num{font-family:'DM Mono','Courier New',monospace;font-size:0.58rem;letter-spacing:0.15em;color:var(--fern);display:block;margin-bottom:0.8rem}
+.svc-name{font-family:'Syne',Arial,sans-serif;font-size:1.2rem;font-weight:700;color:var(--white);margin-bottom:0.4rem;letter-spacing:-0.01em}
+.svc-outcome{font-family:'Instrument Serif',Georgia,serif;font-size:1rem;font-style:italic;color:var(--cream);margin-bottom:0.7rem;line-height:1.5}
+.svc-desc{font-size:0.93rem;line-height:1.8;color:var(--mist)}
+.svc-tags{display:flex;gap:0.6rem;margin-top:1.1rem;flex-wrap:wrap}
+.svc-tag{font-family:'DM Mono','Courier New',monospace;font-size:0.54rem;letter-spacing:0.14em;text-transform:uppercase;border:1px solid var(--hi);color:var(--mist);padding:0.25rem 0.65rem;border-radius:2px}
+.authority,.authority-insight{padding:8rem 3rem;border-top:1px solid var(--rule)}
+.authority-inner{max-width:820px}
+.authority h2,.authority-insight h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.2rem,3.5vw,3.5rem);font-weight:400;color:var(--white);line-height:1.3;margin-bottom:1.5rem;padding-bottom:0.1em;overflow:visible}
+.authority h2 em,.authority-insight h2 em{font-style:italic;color:var(--lime)}
+.auth-intro{font-size:0.95rem;line-height:1.8;color:var(--mist);margin-bottom:1.5rem;max-width:62ch}
+.auth-case{border-left:1.5px solid var(--lime);padding-left:1.8rem;margin-top:2rem}
+.auth-label{font-family:'DM Mono','Courier New',monospace;font-size:0.55rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--lime);margin-bottom:0.7rem;display:block}
+.auth-title{font-size:1rem;line-height:1.7;color:var(--cream);font-weight:600;margin-bottom:1.2rem}
+.auth-list{list-style:none;display:flex;flex-direction:column;gap:0.9rem;margin-bottom:1.4rem}
+.auth-list li{font-size:0.9rem;color:var(--mist);padding-left:1.2rem;position:relative;line-height:1.75}
+.auth-list li::before{content:'\2014';position:absolute;left:0;color:var(--lime);font-size:0.75rem}
+.auth-list li strong{color:var(--cream);font-weight:600;display:block;margin-bottom:0.25rem}
+.auth-outcome{font-size:0.9rem;color:var(--mist);font-style:italic;line-height:1.75;padding-top:1rem;border-top:1px solid var(--rule);margin-top:1rem}
+.about{background:var(--pine);border-top:1px solid var(--rule);padding:8rem 3rem;display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:start}
+.about-left h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.2rem,3.5vw,3.5rem);font-weight:400;line-height:1.3;color:var(--white);margin-bottom:2rem;padding-bottom:0.1em;overflow:visible}
+.about-left h2 em{font-style:italic;color:var(--lime)}
+.philosophy{font-family:'Instrument Serif',Georgia,serif;font-size:1.1rem;font-style:italic;color:var(--mist);line-height:1.6;padding-left:1.2rem;border-left:1.5px solid var(--lime);margin-bottom:2.5rem}
+.diff-grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.diff{background:var(--ink);padding:1.4rem 1.6rem}
+.diff-tag{font-family:'DM Mono','Courier New',monospace;font-size:0.54rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--lime);display:block;margin-bottom:0.45rem}
+.diff-title{font-family:'Syne',Arial,sans-serif;font-size:0.88rem;font-weight:700;color:var(--white);margin-bottom:0.3rem}
+.diff-desc{font-size:0.82rem;line-height:1.75;color:var(--mist)}
+.about-right{display:flex;flex-direction:column;gap:1.1rem}
+.about-right p{font-size:0.97rem;line-height:1.9;color:var(--mist)}
+.about-right strong{color:var(--cream);font-weight:600}
+.selective{font-family:'DM Mono','Courier New',monospace;font-size:0.62rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--lime);border:1px solid var(--hi);display:inline-block;padding:0.5rem 1rem;border-radius:2px;margin-top:0.5rem}
+.creds{display:flex;flex-wrap:wrap;gap:0.55rem;margin-top:1.2rem}
+.cred{font-family:'DM Mono','Courier New',monospace;font-size:0.57rem;letter-spacing:0.14em;text-transform:uppercase;background:var(--ink);color:var(--lime);padding:0.4rem 0.9rem;border-radius:2px;border:1px solid rgba(200,232,108,0.18)}
+.cta{padding:9rem 3rem;text-align:center}
+.cta h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.8rem,5.5vw,5.5rem);font-weight:400;color:var(--white);line-height:1.05;margin-bottom:1.2rem;padding-bottom:0.1em;overflow:visible}
+.cta h2 em{font-style:italic;color:var(--lime);opacity:0.9;font-size:0.95em}
+.cta p{font-size:1rem;color:var(--mist);max-width:44ch;margin:0 auto 2.5rem;line-height:1.85}
+.cta-note{font-family:'DM Mono','Courier New',monospace;font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--fern);margin-top:1.5rem;display:block}
+.cta-email{font-family:'DM Mono','Courier New',monospace;font-size:0.72rem;letter-spacing:0.1em;color:var(--mist);margin-top:1.2rem;display:block}
+.cta-email a{color:var(--lime);text-decoration:none;border-bottom:1px solid rgba(200,232,108,0.3);padding-bottom:1px;transition:border-color 0.2s}
+.cta-email a:hover{border-color:var(--lime)}
+.contact-form{max-width:520px;margin:2.5rem auto 0;display:flex;flex-direction:column;gap:1rem}
+.form-row input,.form-row textarea{width:100%;background:transparent;border:1px solid var(--rule);padding:0.9rem 1rem;color:var(--cream);font-family:'DM Mono','Courier New',monospace;font-size:0.75rem;letter-spacing:0.05em;outline:none;border-radius:0}
+.form-row input::placeholder,.form-row textarea::placeholder{color:var(--fern)}
+.form-row input:focus,.form-row textarea:focus{border-color:var(--lime)}
+.contact-form .btn{margin-top:0.5rem;width:100%}
+footer{background:#090f0b;border-top:1px solid var(--rule);padding:2rem 3rem;display:flex;align-items:center;justify-content:space-between}
+.f-logo{display:inline-flex;align-items:baseline;text-decoration:none;gap:2px}
+.f-dgs{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-size:1.3rem;color:var(--lime);letter-spacing:-0.02em;line-height:1}
+.f-strategy{font-family:'Syne',Arial,sans-serif;font-weight:800;font-size:0.52rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white);margin-left:4px;padding-bottom:1px}
+.f-copy{font-family:'DM Mono','Courier New',monospace;font-size:0.57rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--fern);display:flex;flex-direction:column;align-items:center;gap:0.3rem}
+.f-woman{font-family:'DM Mono','Courier New',monospace;font-size:0.54rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--lime);opacity:0.6}
+.f-links{display:flex;gap:1.8rem;list-style:none}
+.f-links a{font-family:'DM Mono','Courier New',monospace;font-size:0.57rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--fern);text-decoration:none;transition:color 0.2s}
+.f-links a:hover{color:var(--lime)}
+.reveal{opacity:1;transform:none;transition:opacity 0.65s ease,transform 0.65s ease}
+.reveal.will-animate{opacity:0;transform:translateY(20px)}
+.reveal.will-animate.visible{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+</style>
+</head>
+<body>
+<div id="top"></div>
+<h2 style="display:none">Federal Proposal Consultant and GovCon Proposal Management Services</h2>
+
+<nav>
+  <a href="#top" class="logo"><span class="logo-dgs">DGS</span><span class="logo-strategy">Strategy</span></a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-btn">Request Availability</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Federal Proposal Strategy &#183; D.C. Metro</p>
+    <h1>Win more<br>federal <em>work.</em><br><span class="ghost">Without building internal proposal infrastructure.</span></h1>
+    <p class="hero-cred">Strategic bids &#183; GSA MAS &#183; OASIS+ &#183; DoD &amp; Civilian agencies</p>
+    <div class="hero-action">
+      <a href="#services" class="btn">See Services</a>
+      <a href="#contact" class="btn btn-outline">Discuss a Pursuit</a>
+    </div>
+  </div>
+  <div class="hero-foot">
+    <div class="hf"><strong>Built for small and mid-sized federal contractors</strong> competing against larger, better-resourced primes.</div>
+    <div class="hf">Senior-level ownership on every bid. No junior handoffs. No production shops.</div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="svc-header reveal">
+    <span class="mono-label">Services</span>
+    <h2>What you</h2><p class="svc-get"><em>get.</em></p>
+    <p>We engage on a limited number of pursuits at a time &#8212; typically when a bid is high-stakes and internal execution needs experienced leadership, not additional overhead.</p>
+  </div>
+  <div class="svc-list">
+    <div class="svc reveal">
+      <span class="svc-num">01</span>
+      <p class="svc-name">Proposal Management</p>
+      <p class="svc-outcome">You focus on delivery. We own the bid.</p>
+      <p class="svc-desc">End-to-end ownership from RFP release through submission &#8212; schedule, compliance, color reviews, SME coordination, and final production. Structured, predictable execution without last-minute gaps or reactive fire drills.</p>
+      <div class="svc-tags"><span class="svc-tag">Full Lifecycle</span><span class="svc-tag">Color Reviews</span></div>
+    </div>
+    <div class="svc reveal d1">
+      <span class="svc-num">02</span>
+      <p class="svc-name">Proposal Infrastructure &amp; Operations</p>
+      <p class="svc-outcome">Build a system that produces consistent, repeatable wins.</p>
+      <p class="svc-desc">Design and implementation of proposal processes, governance, and operating structure &#8212; including intake workflows, compliance frameworks, color team cadence, and SOPs. Built to scale with your pipeline and support multiple concurrent pursuits without breakdown.</p>
+      <div class="svc-tags"><span class="svc-tag">Processes &amp; SOPs</span><span class="svc-tag">Proposal Ops</span></div>
+    </div>
+    <div class="svc reveal d2">
+      <span class="svc-num">03</span>
+      <p class="svc-name">Pricing &amp; Cost Volume Support</p>
+      <p class="svc-outcome">Competitive pricing that stands up to scrutiny.</p>
+      <p class="svc-desc">Cost models aligned to GSA MAS, OASIS+, and agency IDIQ expectations &#8212; cost-reasonable, audit-defensible, and competitive without eroding margin.</p>
+      <div class="svc-tags"><span class="svc-tag">GSA MAS</span><span class="svc-tag">OASIS+</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"></div>
+
+<section class="authority">
+  <div class="authority-inner">
+    <span class="mono-label reveal">Selected Experience</span>
+    <h2 class="reveal">Building proposal infrastructure<br><em>that scales.</em></h2>
+    <p class="auth-intro reveal">In high-growth environments, the challenge is rarely effort &#8212; it is structure. Without defined processes, proposal teams default to reactive execution, inconsistent outputs, and unnecessary rework &#8212; especially under compressed timelines.</p>
+    <div class="auth-case reveal">
+      <span class="auth-label">Representative Engagement</span>
+      <p class="auth-title">Established proposal and pricing infrastructure for a high-growth, venture-backed defense technology firm supporting DoD contracts and scaling federal revenue from early-stage to structured growth</p>
+      <ul class="auth-list">
+        <li>Designed and implemented a full proposal lifecycle model, replacing fragmented, ad hoc execution with a structured intake-to-submission workflow</li>
+        <li>Standardized pricing models, labor categories, and rate structures</li>
+        <li>Implemented compliance tracking and color team review cadence</li>
+        <li>Developed reusable templates, past performance library, and content structure</li>
+        <li>Integrated proposal operations with capture and BD functions, enabling earlier positioning and stronger alignment to evaluation criteria</li>
+      </ul>
+      <p class="auth-outcome">Result: transition from reactive, one-off proposal efforts to a structured operating model capable of supporting multiple concurrent pursuits with consistent quality, reduced rework, and improved internal alignment.</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"></div>
+
+<section class="authority-insight">
+  <div class="authority-inner">
+    <span class="mono-label reveal">Perspective</span>
+    <h2 class="reveal">Where federal proposals<br><em>actually fail.</em></h2>
+    <p class="auth-intro reveal">Most teams don&#8217;t lose because of capability. They lose because execution breaks under pressure &#8212; late in the process, when it is hardest to recover and visibility is lowest.</p>
+    <p class="auth-intro reveal">At that point, even strong technical solutions are undermined by gaps in alignment, structure, and evaluation positioning.</p>
+    <p class="auth-intro reveal">In high-value pursuits, these gaps don&#8217;t just create inefficiency &#8212; they directly impact evaluation outcomes.</p>
+    <div class="auth-case reveal">
+      <ul class="auth-list">
+        <li><strong>Misalignment to evaluation criteria</strong>Teams build content around internal messaging &#8212; not how the proposal will be evaluated and scored. Gaps are not visible until late reviews, when correction is expensive or impossible.</li>
+        <li><strong>Reactive execution under compressed timelines</strong>Without a defined structure, teams shift into fire-drill mode &#8212; inconsistent inputs, rushed reviews, and avoidable rework.</li>
+        <li><strong>Disconnected pricing and technical approach</strong>Cost volumes are developed in parallel, not in alignment &#8212; leading to inconsistencies that raise evaluator questions and weaken overall credibility.</li>
+        <li><strong>Lack of ownership across the lifecycle</strong>Responsibility is distributed across teams, but accountability is not. Issues surface late, and no one owns resolution end-to-end.</li>
+      </ul>
+      <p class="auth-outcome">Strong proposals are not the result of effort &#8212; they are the result of structure. When the operating model is sound, teams execute with clarity, alignment, and control under pressure &#8212; and evaluation risk is reduced.</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"></div>
+
+<section class="about" id="about">
+  <div class="about-left reveal">
+    <span class="mono-label">About</span>
+    <h2>Not your<br>average<br><em>proposal shop.</em></h2>
+    <p class="philosophy">Most proposal teams manage documents. We manage outcomes.</p>
+    <div class="diff-grid">
+      <div class="diff"><span class="diff-tag">Strategy</span><p class="diff-title">Business Lens First</p><p class="diff-desc">Every bid is a business strategy problem &#8212; win themes, competitive positioning, evaluator psychology &#8212; not a document production task.</p></div>
+      <div class="diff"><span class="diff-tag">Range</span><p class="diff-title">Broad Operational Background</p><p class="diff-desc">Enterprise proposal operations, growth strategy, complex stakeholder environments. That breadth shapes how we position your capabilities against larger competitors.</p></div>
+      <div class="diff"><span class="diff-tag">Exclusive</span><p class="diff-title">Selective by Design</p><p class="diff-desc">Limited engagements at a time. Every client receives direct, senior-level involvement &#8212; from kickoff through submission, with no handoffs.</p></div>
+    </div>
+  </div>
+  <div class="about-right reveal d1">
+    <p>DGS Strategy is a <strong>woman-led federal proposal consultancy</strong> based in the D.C. metro area, supporting small and mid-sized contractors competing in highly competitive federal markets.</p>
+    <p>Our background includes <strong>senior proposal and growth leadership</strong> across enterprise and emerging GovCon firms &#8212; directing proposal operations, supporting capture strategy, and developing compliant, competitive submissions for DoD and civilian agencies.</p>
+    <p>We are engaged for <strong>full proposals, strategic bids, and complex contract efforts</strong> where experienced leadership materially impacts the outcome.</p>
+    <p>Every engagement is led directly by a <strong>senior strategist from kickoff through submission</strong> &#8212; with no delegation to junior staff and no production-layer handoffs. Experience includes pursuits across DoD, DHS, DOL, NASA, and other civilian organizations, with familiarity across IDIQs, OTAs, and GSA-based contracting environments.</p>
+    <span class="selective">Selective Engagements Only</span>
+    <div class="creds">
+      <span class="cred">Shipley Certified</span><span class="cred">APMP Member</span><span class="cred">Georgetown MS</span><span class="cred">MBA</span><span class="cred">D.C. Metro</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <span class="mono-label reveal" style="display:block;margin-bottom:1rem">Work With Us</span>
+  <h2 class="reveal">Serious bid.<br><em>Senior leadership.</em></h2>
+  <p class="reveal">We support a limited number of pursuits at a time. If you have a high-stakes pursuit and need experienced leadership on it, reach out below or email us directly.</p>
+  <form name="contact" method="POST" data-netlify="true" class="contact-form reveal">
+    <input type="hidden" name="form-name" value="contact">
+    <div class="form-row"><input type="text" name="name" placeholder="Name" required></div>
+    <div class="form-row"><input type="text" name="company" placeholder="Company" required></div>
+    <div class="form-row"><textarea name="pursuit" placeholder="What are you bidding?" rows="3" required></textarea></div>
+    <div class="form-row"><input type="text" name="timeline" placeholder="Timeline (e.g. 30 days, 90 days)" required></div>
+    <button type="submit" class="btn">Request Availability</button>
+  </form>
+  <span class="cta-email reveal">Prefer email? <a href="mailto:info@dgsstrategy.com">info@dgsstrategy.com</a></span>
+  <span class="cta-note reveal">Selective engagements only &#183; D.C. Metro</span>
+</section>
+
+<footer>
+  <a href="#top" class="f-logo"><span class="f-dgs">DGS</span><span class="f-strategy">Strategy</span></a>
+  <div class="f-copy">
+    <span>&#169; 2026 &#183; Washington D.C. Metro &#183; Federal Proposal Management</span>
+    <span class="f-woman">Woman-Led &#183; Selective &#183; Independent</span>
+  </div>
+  <ul class="f-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.reveal');
+  els.forEach(function(el){ el.classList.add('will-animate'); });
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    },{threshold:0.08});
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('visible'); });
+  }
+})();
+</script>
+</body>
+</html>
